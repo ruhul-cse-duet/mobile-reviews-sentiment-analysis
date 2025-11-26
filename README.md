@@ -26,7 +26,7 @@ https://mobile-reviews-sentiment-analysis.streamlit.app/
 ### 2. Local setup (without Docker)
 
 ```bash
-git clone <your-repo-url>.git
+git clone [(https://github.com/ruhul-cse-duet/mobile-reviews-sentiment-analysis.git)]
 cd "Global Mobile Reviews"
 python -m venv .venv
 source .venv/Scripts/activate  # on Windows Git Bash
