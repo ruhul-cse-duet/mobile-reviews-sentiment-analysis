@@ -9,6 +9,10 @@ This project provides **mobile reviews sentiment classification** using:
 
 ---
 
+### Show project app link 
+https://mobile-reviews-sentiment-analysis.streamlit.app/
+
+
 ### 1. Project structure
 
 - **`main.py`**: FastAPI app + model loading and `predict_sentiment` function.
