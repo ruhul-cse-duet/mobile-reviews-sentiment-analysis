@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+numpy
+sentence-transformers
+onnxruntime
+torch   # only needed if exporting
+streamlit

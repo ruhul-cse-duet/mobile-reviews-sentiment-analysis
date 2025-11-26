@@ -1,0 +1,155 @@
+/* Page background and typography */
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f7e460 0%, #f1c40f 30%, #8bc34a 65%, #2e7d32 100%);
+    background-size: 400% 400%;
+    animation: gradientShift 18s ease infinite;
+    min-height: 100vh;
+    color: #1b2021;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.title{
+    color: #fff6b7 !important;
+}
+/* Main Container */
+.main .block-container {
+    padding: 2rem 1rem;
+    max-width: 1200px;
+}
+
+
+.stApp {
+    background: radial-gradient(circle at top left, #f8fbff 0, #eef3ff 35%, #f9f9ff 70%, #ffffff 100%);
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Main title */
+h1 {
+    font-weight: 800 !important;
+    letter-spacing: 0.02em;
+}
+
+/* Text area styling */
+textarea {
+    border-radius: 12px !important;
+    border: 1px solid #d0d7e2 !important;
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.03);
+}
+
+/* Buttons */
+.stButton > button {
+    border-radius: 999px;
+    padding: 0.55rem 1.6rem;
+    border: none;
+    background: linear-gradient(135deg, #2563eb, #4f46e5);
+    color: #ffffff;
+    font-weight: 600;
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35);
+    transition: all 0.15s ease-in-out;
+}
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 14px 30px rgba(37, 99, 235, 0.45);
+    opacity: 0.95;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    font-weight: 600;
+}
+
+/* Metric cards */
+[data-testid="metric-container"] {
+    border-radius: 0.85rem;
+    border: 1px solid #e5e7eb;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    box-shadow: 0 4px 14px rgba(148, 163, 184, 0.15);
+    background: rgba(255, 255, 255, 0.85);
+}
+
+/* Horizontal rule */
+hr {
+    margin-top: 0.3rem;
+    margin-bottom: 1.3rem;
+    border-color: #e5e7eb55;
+}
+
+/* Additional dark theme overrides the user added */
+.st-emotion-cache-13k62yr {
+    position: absolute;
+    background: rgb(14, 17, 23);
+    color: rgb(0 0 0 / 80%);
+    inset: 0px;
+    color-scheme: dark;
+    overflow: hidden;
+}
+.st-emotion-cache-467cry h1 {
+    font-size: 2.75rem;
+    font-weight: 700;
+    padding: 1.25rem 0px 1rem;
+    color: #bbb8bf;
+    width: 800px;
+}
+.st-emotion-cache-467cry h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 0.75rem 0px 1rem;
+    color: aqua;
+}
+.st-emotion-cache-1j90q2q p {
+    word-break: break-word;
+    margin: 0px;
+    color: #cfc0dd;
+}
+
+.st-emotion-cache-467cry p {
+    word-break: break-word;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: azure;
+}
+
+.st-emotion-cache-467cry li {
+    margin: 0.2em 0px 0.2em 1.15em;
+    padding: 0px 0px 0px 0.3em;
+    color: azure;
+}
+
+.st-emotion-cache-1w723zb {
+    width: 100%;
+    padding: 6rem 1rem 10rem;
+    max-width: 960px;
+}
+
+.st-emotion-cache-1permvm {
+    display: flex;
+    gap: 1rem;
+    width: 960px;
+    max-width: 960px;
+    height: auto;
+    min-width: 1rem;
+    flex-flow: wrap;
+    flex: 1 1 0%;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: start;
+    justify-content: start;
+    overflow: visible;
+}
